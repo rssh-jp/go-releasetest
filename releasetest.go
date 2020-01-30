@@ -17,7 +17,7 @@ func OptionName(name string) func(*Config) {
 }
 func OptionAge(age int) func(*Config) {
 	return func(config *Config) {
-		config.age = 100
+		config.age = age
 	}
 }
 
